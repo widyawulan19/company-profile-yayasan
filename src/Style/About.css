@@ -1,0 +1,114 @@
+.about-container {
+    width: 100%;
+    height: 100%;
+
+    padding: 50px 0px;
+    /* border: 1px solid red; */
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px);
+
+    background-size: 40px 40px;
+
+}
+
+.ac-title {
+    margin: 70px 0px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ac-title span {
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--color-accent);
+}
+
+.ac-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--color-text-bold);
+    text-shadow: var(--basic-shadow);
+}
+
+.line {
+    width: 10%;
+    border: 1px solid var(--color-text-accent);
+    border-radius: 8px;
+
+    background-color: var(--color-text-accent);
+    height: 2px;
+}
+
+
+.ac-desc {
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    width: 80%;
+}
+
+.ac-desc p {
+    line-height: 2;
+}
+
+.ac-desc2 {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.ac-box {
+    margin-top: 15px;
+    /* border: 1px solid blue; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ac-box h4 {
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: var(--color-text-bold);
+}
+
+.ac-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #fff;
+
+    border: 1px solid #eee;
+    border-radius: 16px;
+    width: 100%;
+    /* height: 100%; */
+    height: 200px;
+    padding: 20px 0px;
+    box-shadow: var(--basic-shadow);
+    cursor: pointer;
+}
+
+.ac-card:hover {
+    border: 1px solid var(--color-text-accent);
+}
+
+.ac-card .icon {
+
+    font-size: 30px !important;
+    color: var(--color-accent);
+}
+
+.ac-card p {
+    /* border: 1px solid red; */
+    width: 80%;
+    font-size: 14px;
+    text-align: justify;
+}
