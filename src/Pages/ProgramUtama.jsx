@@ -38,7 +38,7 @@ function ProgramUtama() {
 
   return (
     <div className='program-container' id='program'>
-        <div className="pc-title">
+        <div className="pc-title" data-aos='fade-up'>
             <span>PROGRAM UTAMA</span>
             <h2>Menciptakan Dampak Melalui Program Nyata</h2>
             <hr className='line'/>
@@ -49,7 +49,7 @@ function ProgramUtama() {
 
         <div className="program-content">
             {dataProgram.map((item,index) =>(
-                <div className="program-card" key={index}>
+                <div className="program-card" key={index} data-aos='fade-up' data-aos-delay={index * 300}>
                     <div className="program-icon">
                         {item.icon}
                     </div>

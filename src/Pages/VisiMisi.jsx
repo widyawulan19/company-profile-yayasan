@@ -73,26 +73,31 @@ function VisiMisi() {
 
   return (
     <div className='vm-container' id='visi'>
-        <div className="title">
+        <div className="title" data-aos='fade-up'>
             <span>VISI & MISI</span>
             <h2>Bersama Menciptakan Masa Depan yang Lebih Baik</h2>
             <hr className='line'/>
             <p>Dengan semangat kepedulian, kolaborasi, dan pemberdayaan, kami berkomitmen menghadirkan perubahan nyata bagi masyarakat dan generasi masa depan.</p>
         </div>
 
-        <div className="visi">
+        <div className="visi" data-aos='fade-up'>
             <h2>VISI</h2>
             <p>
                 Menjadi pelopor perubahan sosial yang memberdayakan masyarakat dan anak-anak untuk mencapai potensi penuh mereka dan menciptakan masa depan yang lebih baik dan berkelanjutan. 
             </p>
         </div>
        
-       <div className="misi">
+       <div className="misi" data-aos='fade-down'>
         <h2>MISI</h2>
         
         <div className="misi-box">
             {dataMisi.map((data,index) =>(
-                <div className="box-category" key={index}>
+                <div 
+                    className="box-category" 
+                    key={index}
+                    data-aos='fade-up'
+                    data-aos-delay={index * 300}
+                >
                     <h4>{data.category}</h4>
                     {data.items.map((item,idx) =>(
                         <div className="list-cat" key={idx}>

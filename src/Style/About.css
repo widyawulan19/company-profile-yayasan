@@ -56,10 +56,18 @@
 
 .ac-desc p {
     line-height: 2;
+    text-align: justify;
+}
+
+.ac-desc2 p {
+    line-height: 2;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 14px;
 }
 
 .ac-desc2 {
-    margin-top: 20px;
+    margin: 20px 0px;
     width: 60%;
 }
 
@@ -75,8 +83,10 @@
 
 .ac-box h4 {
     text-decoration: underline;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: var(--color-text-bold);
+    /* border: 1px solid red; */
+    margin: 5px;
 }
 
 .ac-card {
@@ -90,6 +100,7 @@
     border-radius: 16px;
     width: 100%;
     /* height: 100%; */
+    /* gap: 10px; */
     height: 200px;
     padding: 20px 0px;
     box-shadow: var(--basic-shadow);
@@ -102,7 +113,7 @@
 
 .ac-card .icon {
 
-    font-size: 30px !important;
+    font-size: 35px !important;
     color: var(--color-accent);
 }
 
@@ -111,4 +122,89 @@
     width: 80%;
     font-size: 14px;
     text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* =======================
+MEDIA QUERY
+======================= */
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .ac-desc2 {
+        width: 80%;
+    }
+
+    .ac-desc2 p {
+        width: 100%;
+        font-size: 16px;
+        opacity: normal;
+        line-height: 2;
+        margin-bottom: 20px;
+    }
+
+    /* card  */
+    .ac-card {
+        padding-bottom: 40px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .ac-title h2 {
+
+        width: 80%;
+    }
+
+    .ac-desc2 p {
+        /* border: 1px solid red; */
+        text-align: center;
+        opacity: normal;
+    }
+
+    /* card  */
+
+    .ac-box {
+        width: 90%;
+        /* padding: 20px; */
+    }
+
+    .ac-card {
+        padding: 20px;
+        height: 100%;
+        min-height: 250px;
+    }
+
+    .ac-card .icon {
+        font-size: 40px !important;
+    }
+
+    .ac-card p {
+        width: 95%;
+    }
+
+
+}
+
+/* Small  Mobile */
+@media screen and (max-width: 480px) {
+    .ac-desc2 p {
+        text-align: justify;
+    }
+
+    .ac-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .ac-card {
+        width: 80%;
+    }
+
+    .ac-card p {
+        font-size: 16px;
+    }
 }

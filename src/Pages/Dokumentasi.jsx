@@ -4,11 +4,11 @@ import "../Style/Dokumentasi.css"
 //image
 import dok1 from '../Assets/dok1.jpeg'
 import dok2 from '../Assets/dok2.jpeg'
-import dok3 from '../Assets/dok3.jpeg' //panjang
+import dok3 from '../Assets/dok3.jpeg' //memanjang
 import dok4 from '../Assets/dok4.jpeg'
 import dok5 from '../Assets/dok5.jpeg'
 import dok6 from '../Assets/dok6.jpeg'
-import dok7 from '../Assets/dok7.jpeg' //panjang
+import dok7 from '../Assets/dok7.jpeg' //memanjang
 
 function Dokumentasi() {
 
@@ -23,18 +23,40 @@ function Dokumentasi() {
             </p>
         </div>
 
-        {/* <div className="dok-gallery">
-            <div className="doc1">
-                <div className="left">
-                    <img src={dok7} alt="documen 7" />
-                    <img src={dok3} alt="dokumen pic" />
-                </div>
-                <div className="right">
-                    <img src={dok1} alt="dokumen pic" />
-                    <img src={dok2} alt="dokumen pic" />
-                </div>
+        <div className="dok-gallery">
+            <div className="gallery-item large">
+                <img src={dok7} alt="Dokumentasi kegiatan" />
             </div>
-        </div> */}
+
+            <div className="gallery-item">
+                <img src={dok5} alt="Dokumentasi kegiatan" />
+            </div>
+
+            <div className="gallery-item">
+                <img src={dok2} alt="Dokumentasi kegiatan" />
+            </div>
+
+            <div className="gallery-item wide">
+                <img src={dok3} alt="Dokumentasi kegiatan" />
+            </div>
+
+            <div className="gallery-item">
+                <img src={dok4} alt="Dokumentasi kegiatan" />
+            </div>
+
+            <div className="gallery-item">
+                <img src={dok5} alt="Dokumentasi kegiatan" />
+            </div>
+
+            <div className="gallery-item">
+                <img src={dok6} alt="Dokumentasi kegiatan" />
+            </div>
+
+             <div className="gallery-item">
+                <img src={dok2} alt="Dokumentasi kegiatan" />
+            </div>
+
+        </div>
     </div>
   )
 

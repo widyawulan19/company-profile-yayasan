@@ -20,3 +20,19 @@ Berisi navigasi utama supaya pengunjung gampang pindah section.
 
 Isi navbar center 
 About, Visi & Misi, Program, Documentassi, Struktur  
+
+
+/* Tablet */
+@media screen and (max-width: 992px) {
+
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+
+}

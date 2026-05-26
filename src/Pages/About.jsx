@@ -22,7 +22,7 @@ function About() {
 
   return (
     <div className='about-container' id='about'>
-        <div className="ac-title">
+        <div className="ac-title" data-aos='fade-up'>
             <span>ABOUT</span>
             <h2>Mengenal Lebih Dekat Yayasan Kami </h2>
             <hr className='line'/>
@@ -33,7 +33,7 @@ function About() {
             </div>
         </div>
         
-        <div className="ac-title">
+        <div className="ac-title" data-aos='fade-up'>
             <span>TRANSPARANSI</span>
             <h2>Komitmen Kami Terhadap Kepercayaan Publik </h2>
             <hr className='line'/>
@@ -43,8 +43,12 @@ function About() {
                 </p>
             </div>
             <div className="ac-box">
-                {text.map((item) =>(
-                    <div className="ac-card" key={item.id}>
+                {text.map((item,index) =>(
+                    <div className="ac-card" 
+                        key={index}
+                        data-aos='fade-up'
+                        data-aos-delay={index*300}
+                    >
                         <div className="icon">{item.ikon}</div>
                         <h4>{item.title}</h4>
                         <p>{item.desc}</p>
@@ -58,24 +62,3 @@ function About() {
 
 export default About
 
-{/* <div className="ac-desc2">
-                <div className="title">
-                    <h3>PENDANAAN</h3>
-                    <div className="text">
-                        <p>
-                            Yayasan Sosial kami memperoleh dana dari sumbangan individu, hibah dari perusahaan dan lembaga, serta hasil dari acara penggalangan dana. Kami berkomitmen untuk transparansi dan akuntabilitas dalam setiap penggunaan dana.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div className="ac-desc2">
-                <div className="title">
-                    <h3>AKUNTABILITAS & TRANSPARANSI</h3>
-                    <div className="text">
-                        <p>
-                            Kami menerbitkan laporan tahunan yang rinci mengenai kegiatan dan keuangan yayasan. Laporan ini tersedia untuk diunduh di website kami dan dapat diakses oleh publik.
-                        </p>
-                    </div>
-                </div>
-            </div> */}
