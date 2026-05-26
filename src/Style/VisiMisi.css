@@ -8,6 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background-image: url('../Assets/bg11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* =======================
@@ -109,7 +114,7 @@ MISI
     position: relative;
 
     /* box-shadow: var(--basic-shadow); */
-    background-color: #fff;
+    /* background-color: #fff; */
     color: var(--color-text-accent);
 
     display: flex;

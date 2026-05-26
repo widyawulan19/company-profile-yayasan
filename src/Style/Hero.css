@@ -7,8 +7,8 @@
             transparent 1px),
         linear-gradient(to right bottom, #e4adf1, #e5bef7, #e7cefb, #ebddfe, #f2ecff, #f2ecff, #f2ecff, #f2ecff, #ebddfe, #e7cefb, #e5bef7, #e4adf1);
 
-    position: relative;
-    overflow: hidden;
+    background-size: 22px 22px, cover;
+    background-position: center;
     /* background-size: 22px 22px, cover; */
     gap: 10px;
     display: flex;

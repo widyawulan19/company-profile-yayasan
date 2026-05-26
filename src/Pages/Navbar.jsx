@@ -54,7 +54,7 @@ function Navbar() {
 
             {/* Desktop Menu */}
             <div className="nc-center">
-                <a href="#about">About</a>
+                <a href="#about">Tentang Yayasan</a>
                 <a href="#visi">Visi & Misi</a>
                 <a href="#program">Program</a>
                 <a href="#dokumentasi">Dokumentasi</a>
@@ -83,7 +83,7 @@ function Navbar() {
 
             {/* Mobile Menu */}
             <div className={`mobile-menu ${menuOpen ? 'show' : ''}`}>
-                <a href="#about">About</a>
+                <a href="#about">Tentang Yayasan</a>
                 <a href="#visi">Visi & Misi</a>
                 <a href="#program">Program</a>
                 <a href="#dokumentasi">Documentasi</a>

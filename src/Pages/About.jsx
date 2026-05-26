@@ -23,7 +23,7 @@ function About() {
   return (
     <div className='about-container' id='about'>
         <div className="ac-title" data-aos='fade-up'>
-            <span>ABOUT</span>
+            <span>TENTANG YAYASAN</span>
             <h2>Mengenal Lebih Dekat Yayasan Kami </h2>
             <hr className='line'/>
             <div className="ac-desc">

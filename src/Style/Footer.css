@@ -55,7 +55,9 @@ LEFT
 }
 
 .footer-desc {
-    max-width: 420px;
+    /* max-width: 420px; */
+    width: 80%;
+    text-align: justify;
 
     font-size: 15px;
     line-height: 1.5;
@@ -66,20 +68,21 @@ LEFT
 .footer-address {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    /* gap: 12px; */
-
-    /* max-width: 420px; */
+    /* border: 1px solid red; */
+    width: 80%;
 }
 
 .footer-address svg {
-    font-size: 20px;
+    font-size: 30px;
+    color: var(--color-text-accent);
     /* margin-top: 3px; */
     flex-shrink: 0;
 }
 
 .footer-address p {
-    font-size: 14px;
+    opacity: 0.85;
+    font-size: 15px;
+    line-height: 1.5;
     /* line-height: 1.7; */
 }
 

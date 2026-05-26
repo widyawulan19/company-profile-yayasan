@@ -60,7 +60,7 @@ import '../Style/Footer.css'
 
 import logoImg from '../Assets/logo-bg.png'
 
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io";
 import { IoLocation } from "react-icons/io5";
 import { MdOutlineAttachEmail } from "react-icons/md";
 
@@ -86,8 +86,7 @@ function Footer() {
                     <div className="footer-address">
                         <IoLocation />
                         <p>
-                            Jalan Damai 47, Mampang Kel.,
-                            Pancoran Mas, Depok, Indonesia
+                            Jalan Gunung Salak, Ganidha Residence ruko no.1. Br Tegalantang, Padangsambian Kelod, Denpasar Barat.
                         </p>
                     </div>
 
@@ -121,7 +120,12 @@ function Footer() {
 
                         <div className="contact-item">
                             <MdOutlineAttachEmail />
-                            <p>mail@gmail.com</p>
+                            <p>sarasvatiwedatamasemesta@gmail.com</p>
+                        </div>
+
+                        <div className="contact-item">
+                            <IoLogoInstagram/>
+                            <p>sarasvati.wedatama.semesta</p>
                         </div>
 
                     </div>
