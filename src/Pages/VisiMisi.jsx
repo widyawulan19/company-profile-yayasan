@@ -1,6 +1,9 @@
 import React from 'react'
 import '../Style/VisiMisi.css'
 import { FaCircle } from 'react-icons/fa'
+import icon1 from '../Assets/pattern-1.png'
+import icon2 from '../Assets/pattern-2.png'
+import icon3 from '../Assets/pattern-3.png'
 
 function VisiMisi() {
 
@@ -73,6 +76,12 @@ function VisiMisi() {
 
   return (
     <div className='vm-container' id='visi'>
+
+    {/* pattern  */}
+        <img src={icon1} className='vm-shape s1' alt="" />
+        <img src={icon2} className='vm-shape s2' alt="" />
+        <img src={icon3} className='vm-shape s3' alt="" />
+
         <div className="title" data-aos='fade-up'>
             <span>VISI & MISI</span>
             <h2>Bersama Menciptakan Masa Depan yang Lebih Baik</h2>
@@ -110,6 +119,8 @@ function VisiMisi() {
         </div>
         
        </div>
+
+
     </div>
   )
 }
