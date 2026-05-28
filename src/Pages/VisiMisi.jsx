@@ -96,7 +96,7 @@ function VisiMisi() {
             </p>
         </div>
        
-       <div className="misi" data-aos='fade-down'>
+       <div className="misi" data-aos='fade-up'>
         <h2>MISI</h2>
         
         <div className="misi-box">
